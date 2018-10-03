@@ -9,6 +9,7 @@ public class ApplicationConfiguration {
 	@Bean(name="countryObj")
 	public Country getCountry()
 	{
+		//returned 
 		return new Country("India");
 	}
 	

@@ -12,6 +12,6 @@ public class SpringJavaConfigMain {
 		Country countryObj = (Country) appContext.getBean("countryObj");
 		String countryName=countryObj.getCountryName();
 		
-		System.out.println("Country name: "+ countryName.toUpperCase());
+		System.out.println("Country : "+ countryName.toUpperCase());
 	}
 }

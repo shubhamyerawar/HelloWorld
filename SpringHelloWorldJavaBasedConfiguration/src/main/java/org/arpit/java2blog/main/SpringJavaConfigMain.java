@@ -15,5 +15,6 @@ public class SpringJavaConfigMain {
 		System.out.println("Country name : "+ countryName.toUpperCase());
 		System.out.println(" I N D I A N  ");
 		
+		
 	}
 }
